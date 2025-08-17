@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: employee-tracking-system
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
