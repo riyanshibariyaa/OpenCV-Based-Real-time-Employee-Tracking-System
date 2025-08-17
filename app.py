@@ -56,6 +56,7 @@ def upload_video():
         
         return jsonify(tracker.upload_video(video_file, config))
     except Exception as e:
+        app.logger.error(f"Upload error: {str(e)}")  # ADD THIS LINE
         return jsonify({"status": "error", "message": str(e)})
 
 @app.route('/stop_tracking', methods=['POST'])
