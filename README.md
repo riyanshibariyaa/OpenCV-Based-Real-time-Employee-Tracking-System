@@ -105,7 +105,7 @@ An intelligent **Computer Vision-powered workplace monitoring system** that uses
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/employee_tracking_system.git
+git clone https://github.com/riyanshibariyaa/employee_tracking_system.git
 cd employee_tracking_system
 
 # Build and run with Docker
@@ -120,7 +120,7 @@ open http://localhost:5000
 
 ```bash
 # Clone and setup
-git clone https://github.com/yourusername/employee_tracking_system.git
+git clone https://github.com/riyanshibariyaa/employee_tracking_system.git
 cd employee_tracking_system
 
 # Create virtual environment
