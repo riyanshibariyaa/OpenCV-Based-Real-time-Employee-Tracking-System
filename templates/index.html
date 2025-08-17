@@ -883,6 +883,19 @@
 
             // Update status periodically
             setInterval(updateStatus, 1000);
+                        // Add this after the existing JavaScript code
+            // Refresh video feed if it stops loading
+            setInterval(function() {
+                const videoFeed = document.getElementById('videoFeed');
+                if (videoFeed) {
+                    // Force refresh the video feed source
+                    const currentSrc = videoFeed.src;
+                    videoFeed.src = '';
+                    setTimeout(() => {
+                        videoFeed.src = currentSrc + '?t=' + new Date().getTime();
+                    }, 100);
+                }
+            }, 10000); // Refresh every 10 seconds
             
             // Initial status check
             updateStatus();
