@@ -1,6 +1,6 @@
 # 🎯 OpenCV-Based Real-time Employee Tracking System
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://opencv-based-real-time-employee.onrender.com)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://opencv-based-real-time-employee.onrender.com/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)](https://python.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-green?style=flat-square&logo=opencv)](https://opencv.org)
 [![Flask](https://img.shields.io/badge/Flask-2.3+-red?style=flat-square&logo=flask)](https://flask.palletsprojects.com)
@@ -522,35 +522,10 @@ git push origin feature/your-feature-name
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
 
 ---
 
-## 👨‍💻 Author
-
-**Your Name**
-- 🌐 **Portfolio**: [your-portfolio.com](https://your-portfolio.com)
-- 💼 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- 📧 **Email**: your.email@example.com
 
 ---
 
@@ -563,14 +538,7 @@ copies or substantial portions of the Software.
 
 ---
 
-## 📈 Project Stats
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/employee_tracking_system?style=social)](https://github.com/yourusername/employee_tracking_system/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/employee_tracking_system?style=social)](https://github.com/yourusername/employee_tracking_system/network)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/employee_tracking_system)](https://github.com/yourusername/employee_tracking_system/issues)
-[![GitHub license](https://img.shields.io/github/license/yourusername/employee_tracking_system)](https://github.com/yourusername/employee_tracking_system/blob/main/LICENSE)
-
----
 
 <div align="center">
 
