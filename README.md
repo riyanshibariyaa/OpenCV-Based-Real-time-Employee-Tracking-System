@@ -24,8 +24,7 @@ An intelligent **Computer Vision-powered workplace monitoring system** that uses
 - [🌐 Deployment](#-deployment)
 - [📊 Screenshots](#-screenshots)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👨‍💻 Author](#-author)
+
 
 ---
 
