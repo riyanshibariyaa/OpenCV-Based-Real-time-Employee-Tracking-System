@@ -862,7 +862,9 @@
                         $('#statusIndicator').removeClass('status-present status-absent').addClass('status-inactive');
                     }
                 }).fail(function() {
-                    addLogEntry('Failed to get status from server', 'absent');
+                    // If status fails, try to get it again in 2 seconds
+                    setTimeout(updateStatus, 2000);
+                    // addLogEntry('Failed to get status from server', 'absent');
                 });
             }
 
