@@ -405,17 +405,57 @@ docker run -p 5000:5000 -e CONFIDENCE_THRESHOLD=0.6 employee-tracker
 
 ## 📊 Screenshots
 
-### **Dashboard Overview**
-![Dashboard](https://via.placeholder.com/800x500/1a1a1a/ffffff?text=Main+Dashboard+Screenshot)
-*Main dashboard showing configuration panel, live monitoring, and system status*
+### **🔴 Employee Absent Detection**
+![Employee Absent](https://drive.google.com/uc?export=view&id=1ON0iw2N8uqyNr4EazPzhelDPw013cQ0s)
+*System detecting employee absence - Person outside the monitoring area (blue box) with "Status: ABSENT" displayed. Green box shows the designated workspace monitoring zone.*
 
-### **Active Detection**
-![Detection](https://drive.google.com/file/d/1ON0iw2N8uqyNr4EazPzhelDPw013cQ0s/view?usp=sharing)
-*Real-time person detection with monitoring area and status overlays*
+### **🟢 Employee Present Detection** 
+![Employee Present](https://drive.google.com/uc?export=view&id=1xDwvZT1AS2Whb1lN9CWVzBqxSPPWqLw2)
+*Active employee detection - Person detected within the workspace (red box) with "Status: PRESENT" and confidence score of 0.91. System accurately tracking employee presence at their workstation.*
 
-### **Configuration Panel**
-![Config](https://via.placeholder.com/400x600/1a1a1a/0099ff?text=Configuration+Panel)
-*Detailed configuration options for all detection parameters*
+---
+
+## 🎯 **Key Visual Features Demonstrated**
+
+| Feature | Description | Visual Indicator |
+|---------|-------------|------------------|
+| **🟢 Monitoring Area** | Auto-detected workspace boundary | Green rectangular box |
+| **🔴 Employee at Desk** | Person detected in work area | Red box with "Employee: 0.91" |
+| **🔵 Person Outside Area** | Person detected but not at workstation | Blue box with "Person: 0.88" |
+| **📊 Real-time Status** | Live presence/absence tracking | "Status: PRESENT/ABSENT" overlay |
+| **⏱️ Frame Processing** | Continuous video analysis | Frame counter and timestamp |
+| **🎯 Confidence Scores** | AI detection accuracy | Numerical confidence values |
+
+---
+
+## 🔍 **Detection Logic Explained**
+
+The screenshots above demonstrate the intelligent detection system:
+
+1. **Green Box** = Defines the workspace monitoring area (auto-detected or manually set)
+2. **Red Box** = Employee detected **within** the workspace → Status: **PRESENT**
+3. **Blue Box** = Person detected **outside** the workspace → Status: **ABSENT**
+4. **Confidence Scores** = YOLO detection accuracy (0.88-0.91 = high confidence)
+
+This smart differentiation ensures accurate workplace monitoring by distinguishing between people at their workstation versus those simply passing by.
+
+---
+
+## 🎥 **Demo Video**
+
+Want to see the system in action? Check out this quick demo:
+
+[![Demo Video](https://img.shields.io/badge/▶️%20Watch%20Demo-YouTube-red?style=for-the-badge)](https://drive.google.com/uc?export=view&id=YOUR_VIDEO_FILE_ID)
+
+---
+
+## 🔍 **Feature Highlights**
+
+| Feature | Screenshot | Description |
+|---------|------------|-------------|
+| **Real-time Detection** | ![Detection](https://drive.google.com/uc?export=view&id=YOUR_DETECTION_SMALL_ID) | YOLO-powered person detection with confidence scores |
+| **Smart Monitoring** | ![Monitoring](https://drive.google.com/uc?export=view&id=YOUR_MONITORING_SMALL_ID) | Automated desk area detection and presence tracking |
+| **Modern Interface** | ![Interface](https://drive.google.com/uc?export=view&id=YOUR_INTERFACE_SMALL_ID) | Clean, professional dashboard with real-time updates |
 
 ---
 
