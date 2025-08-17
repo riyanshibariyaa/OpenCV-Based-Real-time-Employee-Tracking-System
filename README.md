@@ -441,23 +441,7 @@ This smart differentiation ensures accurate workplace monitoring by distinguishi
 
 ---
 
-## 🎥 **Demo Video**
 
-Want to see the system in action? Check out this quick demo:
-
-[![Demo Video](https://img.shields.io/badge/▶️%20Watch%20Demo-YouTube-red?style=for-the-badge)](https://drive.google.com/uc?export=view&id=YOUR_VIDEO_FILE_ID)
-
----
-
-## 🔍 **Feature Highlights**
-
-| Feature | Screenshot | Description |
-|---------|------------|-------------|
-| **Real-time Detection** | ![Detection](https://drive.google.com/uc?export=view&id=YOUR_DETECTION_SMALL_ID) | YOLO-powered person detection with confidence scores |
-| **Smart Monitoring** | ![Monitoring](https://drive.google.com/uc?export=view&id=YOUR_MONITORING_SMALL_ID) | Automated desk area detection and presence tracking |
-| **Modern Interface** | ![Interface](https://drive.google.com/uc?export=view&id=YOUR_INTERFACE_SMALL_ID) | Clean, professional dashboard with real-time updates |
-
----
 
 ## 🎯 Use Cases
 
@@ -506,7 +490,7 @@ We welcome contributions! Here's how to get started:
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/yourusername/employee_tracking_system.git
+git clone https://github.com/riyanshibariyaa/employee_tracking_system.git
 cd employee_tracking_system
 
 # Create feature branch
