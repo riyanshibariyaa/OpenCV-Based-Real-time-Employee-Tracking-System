@@ -140,6 +140,8 @@ class EmployeeTracker:
             
             if not self.employee_present and self.absence_start_time is not None:
                 status["absence_duration"] = time.time() - self.absence_start_time
+            else:
+                status["absence_duration"] = 0  # ADD THIS LINE
             
             return status
     
