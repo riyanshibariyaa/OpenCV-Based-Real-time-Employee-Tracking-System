@@ -289,8 +289,8 @@ class EmployeeTracker:
         
         # Return a blank frame if no frame is available
         blank = np.ones((300, 400, 3), dtype=np.uint8) * [255, 0, 0]
-        cv2.putText(blank, "", (30, 150), 
-                   cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
+        cv2.putText(blank, "No Video Feed", (30, 150), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
         ret, jpeg = cv2.imencode('.jpg', blank)
         return jpeg.tobytes()
     
