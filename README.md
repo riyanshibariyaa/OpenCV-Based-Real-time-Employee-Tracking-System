@@ -401,26 +401,6 @@ docker run -p 5000:5000 -e CONFIDENCE_THRESHOLD=0.6 employee-tracker
    - **Auto-deploy**: Enable
 4. **Deploy**: Render automatically builds and deploys
 
-### **Other Cloud Platforms**
-
-#### **Heroku**
-```bash
-# Install Heroku CLI and login
-heroku create your-app-name
-git push heroku main
-```
-
-#### **Railway**
-```bash
-# Connect GitHub repo at railway.app
-# Automatic deployment on push
-```
-
-#### **AWS/GCP/Azure**
-- Use Docker container deployment
-- Configure load balancer for scaling
-- Set up persistent storage for uploads
-
 ---
 
 ## 📊 Screenshots
@@ -430,7 +410,7 @@ git push heroku main
 *Main dashboard showing configuration panel, live monitoring, and system status*
 
 ### **Active Detection**
-![Detection](https://via.placeholder.com/800x400/1a1a1a/00ff00?text=Live+Detection+Screenshot)
+![Detection](https://drive.google.com/file/d/1ON0iw2N8uqyNr4EazPzhelDPw013cQ0s/view?usp=sharing)
 *Real-time person detection with monitoring area and status overlays*
 
 ### **Configuration Panel**
