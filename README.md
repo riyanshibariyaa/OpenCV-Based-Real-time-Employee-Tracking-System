@@ -63,7 +63,7 @@ An intelligent **Computer Vision-powered workplace monitoring system** that uses
 
 ## 🚀 Live Demo
 
-**🌐 [Try the Live Demo](https://opencv-based-real-time-employee.onrender.com)**
+**🌐 [Try the Live Demo](https://opencv-based-real-time-employee.onrender.com/)**
 
 ### Demo Instructions:
 1. **Select "Upload Video"** as input source
